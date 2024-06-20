@@ -1,0 +1,21 @@
+body{
+    margin: 0;
+}
+
+.Headding{
+    background-color: red;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.label_headding{
+    font-size: 40px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.Navigation{
+    display:flex ;
+}
+
