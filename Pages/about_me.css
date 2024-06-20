@@ -52,7 +52,8 @@ nav .nav_animation{
     z-index: 1;
     position: relative;
     height: 100%;
-    width: 100%;
+    width: auto;
+    margin: 0px;
     align-items: center;
     display: flex;
 }
@@ -61,9 +62,9 @@ a:nth-child(1){
     width: 40px;
 }
 
-nav .start-Home, a:nth-child(1):hover~.nav_animation{
-    width: 70px;
-    left: 10px;
+nav .start-Home, a:nth-child(4):hover~.nav_animation{
+    width: 100px;
+    left: 330px;
 }
 
 a:nth-child(2){
@@ -85,7 +86,7 @@ nav .start-Gallery, a:nth-child(3):hover~.nav_animation{
 a:nth-child(4){
     width: 80px;
 }
-nav .start-About me, a:nth-child(4):hover~.nav_animation{
-    width: 100px;
-    left: 330px;
+nav .start-About me, a:nth-child(1):hover~.nav_animation{
+    width: 70px;
+    left: 10px;
 }
