@@ -8,6 +8,9 @@ body{
     align-items: center;
     justify-content: space-between;
     height: 80px;
+    width: 100%;
+    position: fixed;
+    top: 0;
 }
 
 .label_headding{
@@ -95,7 +98,7 @@ nav .start-About me, a:nth-child(4):hover~.nav_animation{
 .Updating_bar{
     display: flex;
     justify-content: center;
-    margin-top: 100px;
+    margin-top: 190px;
 }
 
 .box1, .box2, .box3{
@@ -136,4 +139,33 @@ nav .start-About me, a:nth-child(4):hover~.nav_animation{
 .count{
     font-size: 25px;
     font-weight: bold;
+}
+
+/*body part */
+
+.body{
+    height: 800px;
+    width: 100%;
+    background: linear-gradient(135deg, #ff7eb3, #ff65a3, #7f00ff);
+    margin-top: 50px;
+}
+
+
+/*footer Start*/
+
+.footer{
+    height: 200px;
+    width: 100%;
+    background: linear-gradient(135deg, #1abc9c, #2c3e50);
+    text-align: center;
+    overflow: auto;
+}
+
+.footerpara{
+    margin-top: 50px
+}
+
+.footerLink{
+    text-decoration: none;
+
 }
