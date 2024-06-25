@@ -157,6 +157,11 @@ nav .start-About me, a:nth-child(4):hover~.nav_animation{
     align-items: center;
 }
 
+.bodyPara{
+    flex: 2;
+    
+}
+
 
 .bodyImage{
     max-height: 700px;
