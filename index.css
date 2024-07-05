@@ -99,6 +99,17 @@ nav .start-About me, a:nth-child(4):hover~.nav_animation{
     left: 330px;
 }
 
+.topbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px;
+}
+
+table{
+    padding-left: 50px;
+}
+
 .Updating_bar{
     display: flex;
     justify-content: center;
@@ -143,6 +154,29 @@ nav .start-About me, a:nth-child(4):hover~.nav_animation{
 .count{
     font-size: 25px;
     font-weight: bold;
+}
+
+.bioDetails{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 190px;
+}
+
+
+
+.Proimg{
+    height: 200px;
+    border-radius: 100px;
+}
+
+.bio{
+    display: flex;
+    justify-content: start;
+}
+
+.bioRow{
+    height: 30px;
 }
 
 /*body part */
