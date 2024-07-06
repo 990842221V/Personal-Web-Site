@@ -116,6 +116,25 @@
    <!--Footer End-->
 
 
+   <script>
+    window.addEventListener('scroll', () => {
+        const firstDiv = document.querySelector('.topbar');
+        const secondDiv = document.querySelector('.body');
+        const scrollPosition = window.scrollY;
+        const viewportHeight = window.innerHeight;
+        const threshold = viewportHeight / 2;
+
+        // Calculate the percentage of scroll relative to the threshold
+        let scrollRatio = Math.min(scrollPosition / threshold, 1);
+
+        // Apply the transformations and opacity based on the scroll ratio
+        firstDiv.style.transform = `translateY(-${scrollRatio * 50}px)`;
+        firstDiv.style.opacity = `${1 - scrollRatio}`;
+        secondDiv.style.transform = `translateY(-${scrollRatio * 50}vh)`;
+    });
+</script>
+
+
     
 </body>
 </html>
