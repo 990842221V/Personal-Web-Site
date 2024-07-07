@@ -211,6 +211,13 @@ table{
     flex: 1;
 }
 
+.welcome{
+    color: white;
+    padding-left: 100px;
+    font-weight: bold;
+    font-size: 30px;
+}
+
 
 /*footer Start*/
 
